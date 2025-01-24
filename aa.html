@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Example</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+      body {
+    font-family: "Arial", sans-serif;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 36px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+}
+
+.content {
+    margin-left: 50px;
+    padding: 20px;
+    transition: margin-left 0.5s;
+}
+
+    </style>
+</head>
+<body>
+    <button class="openbtn" onclick="openNav()">Open Sidebar</button>
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">HOME</a>
+        <a href="shop.html">SHOP</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+    </div>
+
+    <div class="content">
+        <!-- Main content goes here -->
+    </div>
+
+    <script>
+      function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.querySelector(".content").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.querySelector(".content").style.marginLeft= "0";
+}
+
+    </script>
+</body>
+</html>

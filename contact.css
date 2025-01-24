@@ -1,0 +1,519 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.logo{
+  font-size: 23px;
+  font-family:  'Kaushan Script', cursive;;
+  /* color: black; */
+}
+
+.span1{
+  font-size: 23px;
+  font-family: 'Luckiest Guy', cursive;
+  padding-left: 7px;
+  /* color: black; */
+}
+
+.letter-spacing{
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+
+.width{
+  width: 600px;
+  font-weight: 700;
+  margin-left: 160px;
+ }
+ 
+ .width div{
+  padding-left: 18px;
+ }
+
+
+
+.add-card{
+  font-size: 20px;
+  cursor: pointer;
+  /* color: black; */
+ }
+
+.about{
+   width: 100%;
+   height: 560px;
+   /* border: 1px solid black; */
+   /* background-image: url(https://websitedemos.net/christmas-shop-04/wp-content/uploads/sites/1421/2023/11/overlay.jpg); */
+   background-image:linear-gradient(to top , rgba(136, 13, 13, 0.726)50%,rgba(136, 13, 13, 0.726)50%),url(https://websitedemos.net/christmas-shop-04/wp-content/uploads/sites/1421/2023/11/overlay.jpg);;
+   /* filter: brightness(0.8) contrast(1.2) saturate(1.5); */
+  }
+
+.about-div{
+width: 300px;
+height: 35px;
+margin-top: 120px;
+/* margin-left: 530px; */
+color: white;
+}
+
+.about-div h3{
+    font-size: 35px;
+    font-family: "Kaushan Script",handwriting;
+    font-weight: 400;
+    line-height: 35px;  
+}
+
+.about-div2{
+  font-family: 'Luckiest Guy', cursive;
+  /* margin-left: 480px; */
+  color: white;
+  padding-top: 40px;
+  font-size: 90px;
+}
+
+.ss{
+  width: 100%;
+  height: 100px;
+  /* margin-top: 100px; */
+  background-image: url(Screenshot\ \(134\).png);
+}
+
+
+.contact-div3{
+    height: 800px;
+    /* border: 1px solid black; */
+}
+
+.contant{
+    height: 130px;
+    /* border: 1px solid black; */
+    /* margin-top: 50px; */
+    font-family: "Luckiest Guy";
+    font-weight: 400;
+    color: rgb(17, 19, 24);
+    line-height: 32px;
+    font-size: 32px;
+}
+
+.contact-us{
+    height: 600px;
+    /* border: 1px solid black; */
+    
+}
+
+.info{
+    height: 530px;
+    /* width: 620px; */
+    /* border: 1px solid black; */
+}
+
+
+.info2{
+    height: 530px;
+    width: 620px;
+    /* border: 1px solid black; */
+    flex-wrap: wrap;
+}
+
+.label{
+  margin-top: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(56, 59, 66);
+  font-weight: 700;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+.w{
+  height: 110px;
+  /* width: 620px; */
+padding-right: 20px;
+  /* border: 1px solid black; */
+
+}
+
+#Name{
+  /* width: 300px; */
+  height: 60px;
+ 
+}
+
+input#Name:focus{ 
+  outline-color: gray;
+}
+
+.invalid{
+  /* width: 300px; */
+  height: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  color:rgb(214, 54, 55);
+  line-height: 26px;
+  font-size: 14px;
+  display: none;
+}
+
+.namee{
+  line-height: 26px;
+  font-size: 14px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+input#Name:focus{
+  outline-color: gray;
+  outline: none; box-shadow: none;
+}
+
+.email{
+     /* width: 620px; */
+     height: 100px;
+     /* border: 2px solid black; */
+}
+
+#email{
+  /* width: 618px; */
+  height: 60px;
+}
+
+
+input#email:focus{ 
+  outline-color: gray;
+  outline: none; box-shadow: none;
+}
+
+.third{
+  /* width: 620px; */
+  height: 200px;
+}
+
+#massage{
+  /* width: 620px; */
+  height: 130px;
+}
+
+
+textarea#massage:focus{ 
+  outline-color: gray;
+  outline: none; box-shadow: none;
+}
+
+#submit{
+  /* width: 100px; */
+  height: 50px;
+  border-radius: 30px;
+  margin-top: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  background-color: rgb(198,15,15);
+  color: white;
+  border: none;
+}
+
+
+button#submit:focus{ 
+  outline: none;
+  border: none;
+}
+
+.info-div{
+  /* height: 250px; */
+  width: 300px;
+  /* border: 1px solid black; */
+  
+}
+
+.info-div i{
+  margin-top: 20px;
+font-weight: 900;
+font-size: 30px;
+line-height: 30px;
+color: rgb(17, 19, 24);
+}
+
+.info-div h3{
+  font-weight: 400;
+  line-height: 26px;
+  font-size: 24px;
+  font-family: "Luckiest Guy";
+  color: rgb(17, 19, 24);
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+
+.info-div p{
+  font-weight: 500;
+  font-family:"Roboto Condensed", sans-serif;
+  line-height: 26px;
+  font-size: 16px;
+  color: rgb(56, 59, 66);
+}
+
+
+
+.c2{
+  height: 600px;
+}
+
+.image2{
+  background-image:linear-gradient(to top , rgba(136, 13, 13, 0.726)50%,rgba(136, 13, 13, 0.726)50%),url(https://websitedemos.net/christmas-shop-04/wp-content/uploads/sites/1421/2023/11/overlay.jpg);
+  height: 620px;
+  color: white;
+  margin-top: 20px;
+}
+
+.join1{
+  padding-top: 170px;
+ font-family: "Kaushan Script";
+ font-size: 35px;
+ color: white;
+}
+
+.start1{
+  font-family: "Luckiest Guy";
+  font-size: 80px;
+  color: white;
+  line-height: 80px;
+  overflow: hidden;
+}
+
+.button1{
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  width: 120px;
+  height: 40px;
+  border: none;
+  font-weight: bold;
+}
+
+.h-6002{
+  /* border: 2px solid black; */
+  height: 550px;
+  /* width: 100%; */
+  /* margin: 50px; */
+}
+
+.title-heading2{
+  font-size: 35px;
+  font-family: 'Kaushan Script', cursive;
+  color: rgb(198,15,15);
+}
+
+.fs2{
+  font-size: 80px;
+  font-family: "Luckiest Guy";
+  line-height: 80px;
+  margin-top: 30px;
+}
+
+.d{
+  /* width: 850px; */
+  height: 550px;
+  /* border: 2px solid black; */
+}
+
+.d2{
+  /* width: 420px; */
+  height: 550px;
+  /* border: 2px solid black; */
+  /* margin-left: 90px; */
+  background-image: url(https://websitedemos.net/christmas-shop-04/wp-content/uploads/sites/1421/2023/11/about-03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.image3{
+background-image:linear-gradient(to top ,  rgba(136, 13, 13, 0.726)50%,rgba(136, 13, 13, 0.726)50%), url(https://websitedemos.net/christmas-shop-04/wp-content/uploads/sites/1421/2023/11/bg-003-b.jpg);
+height: 600px;
+}
+
+   
+footer{
+  height: 150px;
+  margin: 30px;
+}
+.logo2{
+  font-size: 20px;
+  font-family:  'Kaushan Script', cursive;;
+  color: rgb(198,15,15);
+}
+
+.span12{
+  font-size: 20px;
+  font-family: 'Luckiest Guy', cursive;
+  padding-left: 7px;
+  color: black;
+}
+
+.letter-spacing2{
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: black;
+}
+
+.fw{
+  font-weight: 600;
+ }
+
+ .hh:hover{
+  color: rgb(198,15,15);
+ }
+
+.add-card2{
+  font-size: 17px;
+  cursor: pointer;
+  color: black;
+  width: 110px;
+ }
+
+ .width-f{
+    width: 880px;
+ }
+
+ .last{
+  height: 60px;
+  margin: 40px;
+  padding-left: 400px;
+ }
+
+ .l-icon{
+  background-color: rgb(198,15,15);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  /* margin-left: 250px; */
+ }
+
+ .w-up{
+  width: 380px;
+ }
+
+ @media (min-width: 576px) and (max-width: 767.98px){
+  nav .d-flex {
+    flex-direction: column;
+    align-items: center;
+}
+
+.width {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 160px;
+   
+}
+
+.ss{
+  margin-top: 100px;
+}
+
+.c2{
+  height: 400px;
+  margin-top: 30px;
+}
+
+.image2{
+height: 400px;
+}
+.join1{
+  font-size: 20px;
+  padding-top: 110px;
+  padding-bottom: 10px;
+}
+
+.heading-start{
+font-size: 35px;
+line-height: 35px;
+}
+
+.button1 {
+  margin: 10px 0;
+  width: 100px;
+  height: 30px;
+}
+
+.contact-us{
+  flex-direction: column;
+  height: 800px;
+
+}
+
+.info{
+  width: 100%;
+}
+
+.foot-height{
+  height: 300px;
+  margin: 30px;
+}
+
+.contact-div3{
+    height: 1600px;
+}
+
+.info2{
+  width: 100%;
+  /* margin-top: 100px; */
+  height: 420px;
+}
+
+.link{
+  width: 100%;
+  height: 50px;
+}
+
+footer{
+  height: 310px;
+}
+
+ }
+
+@media (max-width: 575.98px){
+  
+  body {
+     font-size: 14px; 
+  }
+  
+.ss{
+  display:none;
+}
+.row > div {
+   min-height: 100px; /* Minimum height for rows */
+   }
+   
+     .start1{
+      font-size: 35px;
+      line-height: 30px;
+     }
+
+     .about-div2{
+      font-size: 50px;
+     }
+
+  .info2{
+  width: 100%;
+  /* margin-top: 100px; */
+  height: 800px;
+}
+
+.ffot{
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-card2{
+  margin: 20px;
+}
+
+.width-f{
+  font-size: 11px;
+}
+
+footer{
+  min-height: 400px;
+}
+
+ }

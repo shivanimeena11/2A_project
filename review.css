@@ -1,0 +1,325 @@
+
+body{
+  overflow-x: hidden;
+}
+
+.first-class {
+    padding-top: 20px;
+    color: rgb(22, 21, 21);
+}
+.logo {
+    font-size: 23px;
+    font-family: 'Kaushan Script', cursive;
+    color: brown;
+}
+.span1 {
+    font-size: 23px;
+    font-family: 'Luckiest Guy', cursive;
+    padding-left: 7px;
+}
+.letter-spacing {
+    letter-spacing: 1px;
+    color: black;
+    cursor: pointer;
+}
+.fw {
+    font-weight: 700;
+}
+.add-card {
+    font-size: 20px;
+    color: brown;
+}
+.bhumika2 {
+    margin-left: 20px; /* Adjust as needed */
+}
+.d-flex {
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: black;
+}
+.w-25 {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+#first img {
+    width: 100%;
+    height: auto;
+}
+#second {
+    margin-left: 20px;
+    padding-top: 30px;
+}
+#second p {
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+    font-size: 15px;
+    line-height: 26px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#second h1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: brown;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#second h2 {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    font-family: 'Luckiest Guy', cursive;
+    color: black;
+}
+#second h3 {
+    display: flex;
+}
+#second h4 {
+    padding-top: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(56, 59, 66);
+    line-height: 26px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#hr {
+    margin-top: 45px;
+}
+#second h5 {
+    height: 19px;
+    width: 170px;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    margin-left: 220px;
+    font-size: 20px;
+}
+#second h5 button {
+    border-radius: 50px;
+}
+#second #pera-2 {
+    font-weight: 600;
+    line-height: 26px;
+    font-size: 16px;
+    color: rgb(56, 59, 66);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#second h6 {
+    display: flex;
+}
+#second #pera-3 {
+    color: brown;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+}
+h1, h2, h3, h4, h6 {
+    margin-top: 20px;
+}
+#second p {
+    margin-bottom: 10px;
+}
+hr {
+    margin: 20px 0;
+}
+
+.row { 
+  display: flex; 
+} 
+.column { 
+  flex: 1; padding: 10px;
+  margin-right: 10px; 
+} 
+.column img { 
+  width: 100%; 
+  height: auto; 
+}
+
+.scrollable-container { 
+  width: 100%; 
+  height: 800px; 
+  overflow-x: auto; 
+  white-space: nowrap; 
+  scrollbar-width: none;
+} 
+
+.scrollable-container img { 
+  height: 100%; 
+  display: inline-block; 
+ 
+}
+
+.row { 
+  display: flex; 
+  flex-wrap: wrap; 
+} 
+
+.column { 
+  flex: 1; padding: 10px;  
+} 
+
+.column img { 
+  width: 100%; 
+  height: auto; 
+}
+
+#line{
+  margin-left: 5px;
+  color: rgb(56, 59, 66);
+  
+}
+
+
+#pera{
+  padding-left: 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-size: 400;
+  color:rgb(56, 59, 66);
+  line-height: 26px;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#heading{
+  font-size: 78px;
+  font-weight: 400;
+  line-height: 78px;
+  color: rgb(22, 21, 21);
+  margin-top: 60px;
+  padding-left: 15px;
+  font-family: 'Luckiest Guy', cursive;
+
+}
+
+.col-4 i{
+    padding-top: 4px;
+    color: brown;
+}
+
+.col-4 p{
+    color: black;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 5px;
+}
+
+
+footer{
+    height: 150px;
+    margin: 30px;
+  }
+  .logo2{
+    font-size: 20px;
+    font-family:  'Kaushan Script', cursive;;
+    color: rgb(198,15,15);
+  }
+  
+  .span12{
+    font-size: 20px;
+    font-family: 'Luckiest Guy', cursive;
+    padding-left: 7px;
+    color: black;
+  }
+  
+  .letter-spacing2{
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .fw{
+    font-weight: 600;
+   }
+  
+   .hh:hover{
+    color: rgb(198,15,15);
+   }
+  
+  .add-card2{
+    font-size: 17px;
+    cursor: pointer;
+    color: black;
+    width: 110px;
+   }
+  
+   .last{
+    height: 60px;
+    margin: 40px;
+    padding-left: 400px;
+    color: black;
+   }
+  
+   .l-icon{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(198,15,15);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 30px;
+    margin-left: 270px;
+   }
+
+   .btn {
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+   }
+  
+   .border{
+    height: 35px;
+    text-decoration: none;
+   }
+
+button.border:focus{
+  outline: none;
+}
+
+   .custom-div { 
+    width: 1350px;
+    height: 500px;
+    margin: 20px;
+    color: black;
+    margin-top: 10px;
+   
+ }
+
+ .form{
+
+  padding: 10px;
+ }
+
+ .marge{
+
+  justify-content: space-between;
+  display: flex;
+ }
+
+ .brown {
+  color: brown;
+ }
+
+ .btn-1{
+  margin-top: 20px;
+ }

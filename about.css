@@ -1,0 +1,238 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.logo{
+  font-size: 23px;
+  font-family:  'Kaushan Script', cursive;;
+  /* color: black; */
+}
+
+.span1{
+  font-size: 23px;
+  font-family: 'Luckiest Guy', cursive;
+  padding-left: 7px;
+  /* color: black; */
+}
+
+.add-card{
+  font-size: 20px;
+  cursor: pointer;
+  /* color: ; */
+ }
+
+
+.about{
+   width: 100%;
+   height: 560px;
+   /* border: 1px solid black; */
+   /* background-image: url(https://websitedemos.net/christmas-shop-04/wp-content/uploads/sites/1421/2023/11/overlay.jpg); */
+   background-image:linear-gradient(to top , rgba(136, 13, 13, 0.726)50%,rgba(136, 13, 13, 0.726)50%),url(https://websitedemos.net/christmas-shop-04/wp-content/uploads/sites/1421/2023/11/overlay.jpg);;
+   /* filter: brightness(0.8) contrast(1.2) saturate(1.5); */
+  }
+
+.about-div{
+width: 300px;
+height: 35px;
+margin-top: 120px;
+/* margin-left: 530px; */
+color: white;
+}
+
+.about-div h3{
+    font-size: 35px;
+    font-family: "Kaushan Script",handwriting;
+    font-weight: 400;
+    line-height: 35px;  
+}
+
+.about-div2{
+  font-family: 'Luckiest Guy', cursive;
+  /* margin-left: 480px; */
+  color: white;
+  padding-top: 40px;
+  font-size: 90px;
+}
+
+.ss{
+  width: 100%;
+  height: 100px;
+  margin-top: 100px;
+  background-image: url(Screenshot\ \(134\).png);
+}
+
+.h-600{
+  /* border: 2px solid black; */
+  height: 750px;
+  width: 100%;
+  margin: 50px;
+}
+
+.title-heading{
+  font-size: 35px;
+  font-family: 'Kaushan Script', cursive;
+  color: rgb(198,15,15);
+}
+
+.fs{
+  font-size: 80px;
+  font-family: "Luckiest Guy";
+  line-height: 80px;
+  margin-top: 30px;
+}
+
+.col-4{
+  height: 370px;
+}
+
+.fs-small{
+  font-size: 27px;
+  font-family: "Luckiest Guy";
+  line-height: 25px;
+}
+
+.image1{
+  background-image: url(https://websitedemos.net/christmas-shop-04/wp-content/uploads/sites/1421/2023/11/about-02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.ff{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+}
+
+.c2{
+  height: 600px;
+}
+
+.image2{
+  background-image:linear-gradient(to top , rgba(136, 13, 13, 0.726)50%,rgba(136, 13, 13, 0.726)50%),url(https://websitedemos.net/christmas-shop-04/wp-content/uploads/sites/1421/2023/11/overlay.jpg);
+  height: 620px;
+  color: white;
+}
+
+.join1{
+ font-family: "Kaushan Script";
+ font-size: 35px;
+ color: white;
+}
+
+.start1{
+  font-family: "Luckiest Guy";
+  font-size: 80px;
+  color: white;
+  line-height: 80px;
+  overflow: hidden;
+}
+
+.button1{
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  width: 120px;
+  height: 40px;
+  border: none;
+  font-weight: bold;
+}
+
+.h-6002{
+  /* border: 2px solid black; */
+  height: 550px;
+  margin: 20px;
+  /* width: 100%; */
+  /* margin: 50px; */
+}
+
+.title-heading2{
+  font-size: 35px;
+  font-family: 'Kaushan Script', cursive;
+  color: rgb(198,15,15);
+}
+
+.fs2{
+  font-size: 80px;
+  font-family: "Luckiest Guy";
+  line-height: 80px;
+  margin-top: 30px;
+}
+
+.d{
+  /* width: 850px; */
+  height: 550px;
+  /* border: 2px solid black; */
+}
+
+.d2{
+  /* width: 420px; */
+  height: 550px;
+  /* border: 2px solid black; */
+  /* margin-left: 90px; */
+  background-image: url(https://websitedemos.net/christmas-shop-04/wp-content/uploads/sites/1421/2023/11/about-03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.image3{
+background-image:linear-gradient(to top ,  rgba(136, 13, 13, 0.726)50%,rgba(136, 13, 13, 0.726)50%), url(https://websitedemos.net/christmas-shop-04/wp-content/uploads/sites/1421/2023/11/bg-003-b.jpg);
+height: 600px;
+}
+
+   
+footer{
+  height: 220px;
+  margin: 30px;
+}
+.logo2{
+  font-size: 20px;
+  font-family:  'Kaushan Script', cursive;;
+  color: rgb(198,15,15);
+}
+
+.span12{
+  font-size: 20px;
+  font-family: 'Luckiest Guy', cursive;
+  padding-left: 7px;
+  color: black;
+}
+
+.letter-spacing2{
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: black;
+}
+
+.fw{
+  font-weight: 600;
+ }
+
+ .hh:hover{
+  color: rgb(198,15,15);
+ }
+
+.add-card2{
+  font-size: 17px;
+  cursor: pointer;
+  color: black;
+  width: 110px;
+ }
+
+ .last{
+  height: 60px;
+  margin: 40px;
+  padding-left: 400px;
+ }
+
+ .l-icon{
+  background-color: rgb(198,15,15);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 30px;
+  /* margin-left: 250px; */
+ }
+
+ .link2{
+   height: 40px;
+ }
+ 

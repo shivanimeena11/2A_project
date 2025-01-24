@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="shop" style="overflow: hidden;">
+        <nav class="navbar navbar-expand-lg navbar-light text-white justify-content-between w-100">
+            <a class="navbar-brand logo text-white" href="#">Christmas<span
+                    class="span1 letter-spacing">Gifts</span></a>
+            <button class="navbar-toggler text-white openbtn" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-white" onclick="openNav()"></span>
+            </button>
+
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="Christmas.html">HOME</a>
+                <a href="shop.html">SHOP</a>
+                <a href="about.html">ABOUT</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active ">
+                        <a class="nav-link text-white" href="Christmas.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="shop.html">SHOP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+                <div class="add-card">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <h1 class="shop-div d-flex justify-content-center align-items-center">shop</h1>
+            <div class="shophome d-flex justify-content-center align-items-center">Home>>Shop</div>
+        </div>
+    </div>
+
+    <div class="container-fluid custom-hieght " style="overflow: hidden;">
+        <div class="showing d-flex">
+            <div class="w-50 m-3">
+                <p>Showing 1–12 of 19 results</p>
+            </div>
+            <div class="w-50 m-3 d-flex justify-content-end">
+                    <select name="shoping" id="shoping" onchange="location = this.value;">
+                        <option value="lowToHigh.html">Sort by price: low to high</option> 
+                        <option value="shop.html">Default sorting</option>
+                        <option value="shortByPriority.html">Sort by popularity</option> 
+                        <option value="shortByRating.html">Sort by average rating</option> 
+                        <option value="shortByLetest.html">Sort by latest</option> 
+                        <option value="lowToHigh.html">Sort by price: low to high</option> 
+                        <option value="highToLow.html">Sort by price: high to low</option>
+                    </select>
+            </div>
+        </div>
+        <div class="container-fluid  d-flex flex-wrap">
+            <div class="col-lg-3 col-md-4 col-sm-6 sel">
+                <a href="whiteCup.html">
+                    <div class="sel2" style="background-image: url(product-01-400x600\ \(1\).jpg);">
+                        <div class="add-to-card"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </a>
+                <div class="star"><i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="pp">
+                    Holiday Elegance Mug</div>
+                <span>$16.00</span>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 sel">
+                <a href="twoCup.html">
+                    <div class="sel2" style="background-image: url(product-02-400x600\ \(4\).jpg);">
+                        <div class="add-to-card"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </a>
+                <div class="star"><i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="pp">Merry Memories Photo Mug</div>
+                <span>$17.00</span>
+            </div>
+
+
+            <div class="col-lg-3 col-md-4 col-sm-6 sel">
+                <a href="greenCup.html">
+                    <div class="sel2" style="background-image: url(product-04-400x600\ \(1\).jpg);">
+                        <div class="add-to-card"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </a>
+                <div class="star"><i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="pp">Jingle All the Way Mug</div>
+                <span>$19.00</span>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 sel">
+                <a href="candy.html">
+                    <div class="sel2" style="background-image: url(product-016-400x600\ \(1\).jpg);">
+                        <div class="add-to-card"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </a>
+                <div class="star"><i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="pp">Golden Glow Festivities</div>
+                <span>$29.00</span>
+            </div>
+
+
+            <div class="col-lg-3 col-md-4 col-sm-6 sel">
+                <a href="tree.html">
+                    <div class="sel2 " style="background-image: url(product-012-400x600\ \(2\).jpg); ">
+                        <div class="add-to-card"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </a>
+                <div class="star"><i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="pp">
+                    Enchanted Evergreens Collection</div>
+                <span>$34.00</span>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 sel">
+                <a href="leaf.html">
+                    <div class="sel2" style="background-image: url(product-017-400x600\ \(1\).jpg);">
+                        <div class="add-to-card"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </a>
+                <div class="star"><i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="pp">Candy Cane Lane Delights</div>
+                <span>$34.00</span>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 sel">
+                <a href="topi.html">
+                    <div class="sel2" style="background-image: url(product-09-400x600\ \(1\).jpg);">
+                        <div class="add-to-card"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </a>
+                <div class="star"><i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="pp">Holiday Hound & Human Harmony</div>
+                <span>$55.00</span>
+            </div>
+
+
+            <div class="col-lg-3 col-md-4 col-sm-6 sel">
+                <a href="blueTshirt.html">
+                    <div class="sel2" style="background-image: url(product-014-400x600\ \(1\).jpg);">
+                        <div class="add-to-card"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </a>
+                <div class="star"><i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="pp"><a href="blueTshirt.html" style="text-decoration: none; color: black;"> Christmas
+                        Holiday Hound</a></div>
+                <span>$65.00</span>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 sel">
+                <a href="discription.html">
+                    <div class="sel2" style="background-image: url(product-018-400x600\ \(1\).jpg);">
+                        <div class="add-to-card"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </a>
+                <div class="star"><i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="pp"><a href="discription.html" style="text-decoration: none; color: black;">Candy Cane Lane
+                        Delights</a></div>
+                <span>$67.00</span>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 sel">
+                <a href="redTshirt.html">
+                    <div class="sel2 " style="background-image: url(product-013-400x600\ \(1\).jpg);">
+                        <div class="add-to-card"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </a>
+                <!-- <div class="sel2 " style="background-image: url(product-012-400x600\ \(2\).jpg); "></div> -->
+                <div class="star"><i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="pp">
+                    Christmas Human Harmony</div>
+                <span>$89.00</span>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 sel">
+                <a href="girl.html">
+                    <div class="sel2" style="background-image: url(product-010-400x600.jpg);">
+                        <div class="add-to-card"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </a>
+                <div class="star"><i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="pp">Fur & Festivity Fashion Parade</div>
+                <span>$187.00</span>
+            </div>
+
+
+            <div class="col-lg-3 col-md-4 col-sm-6 sel">
+                <a href="dog.html">
+                    <div class="sel2" style="background-image: url(product-07-400x600\ \(1\).jpg);">
+                        <div class="add-to-card"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </a>
+                <div class="star"><i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="pp">Festive Family Fashion: Pet Edition</div>
+                <span>$239.00</span>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="foot-height" style="overflow: hidden;">
+        <div class="d-flex justify-content-between pt-4 pl-5 pr-5 foot ">
+            <div class="logo2">Christmus<span class="span1 letter-spacing2">Gifts</span></div>
+
+            <div class="w-25 d-flex justify-content-between fw letter-spacing2 last-menu ">
+                <div class="hh">HOME</div>
+                <div class="hh"> <a href="shop.html" style="all: unset;">SHOP</a></div>
+                <div class="hh"><a href="about.html" style="all: unset;">ABOUT</a></div>
+                <div class="hh"><a href="contact.html" style="all: unset;">CONTACT</a></div>
+            </div>
+
+            <div class="add-card2 d-flex justify-content-between last-icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <hr>
+        <div class=" container-fluid d-flex  w-100 link">
+            <div class=" d-flex justify-content-center align-items-center w-100 ">
+                <div>Copyright © 2024 Christmas Shop | Powered by Christmas Shop </div>
+            </div>
+
+        </div>
+        <!-- <div class="w-up d-flex justify-content-end">
+    <div class=" d-flex l-icon m-3 justify-content-center align-items-center"><i class="fa-solid fa-arrow-up"></i></div>
+       </div> -->
+        </div>
+    </footer>
+</body>
+
+</html>
